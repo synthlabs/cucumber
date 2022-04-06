@@ -1,0 +1,3 @@
+An audio adapter might contain several devices—for example, a wave-rendering device and a wave-capture device. These are adapter devices rather than endpoint devices. As mentioned previously, adapter devices are registered by the Plug and Play manager, in contrast with endpoint devices, which are registered by the endpoint manager. Each adapter device typically supports one or more endpoint devices. A rendering endpoint device (for example, headphones) can receive a stream of audio data from a client application, and a capture endpoint device (for example, a microphone) can send an audio stream to a client application.
+
+https://docs.microsoft.com/en-us/windows/win32/coreaudio/enumerating-audio-devices

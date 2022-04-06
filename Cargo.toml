@@ -1,0 +1,26 @@
+[package]
+edition = "2021"
+name = "cucumber"
+version = "0.1.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+prettytable-rs = "^0.8"
+structopt = "0.3.26"
+
+[dependencies.windows]
+features = [
+  "alloc",
+  "Foundation_Collections",
+  "Win32_Devices_Bluetooth",
+  "Win32_Foundation",
+  "Win32_Security",
+  "Win32_System_Com",
+  "Win32_System_Threading",
+  "Devices_Enumeration",
+  "Devices_Bluetooth",
+  "Win32_Media_Audio",
+  "Win32_Media_Audio_Endpoints",
+]
+git = "https://github.com/microsoft/windows-rs.git"
